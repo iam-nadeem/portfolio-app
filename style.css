@@ -204,6 +204,7 @@ nav {
   margin-left: 24px;
   gap: 10px;
 }
+
 .my-resume:hover {
   color: #fff;
   cursor: pointer;
@@ -219,17 +220,18 @@ nav {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   margin: 16px;
 }
+
 .web-lang {
-    display: flex;
-    font-family: 'poppins', Arial, Helvetica, sans-serif;
-    color: #253858;
-    padding-left: 16px;
-    margin-top: 5%;
-    background: #f7f7f9;
-    width: 700px ;
-    align-items: center;
-    gap: 16px;
-  }
+  display: flex;
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  color: #253858;
+  padding-left: 16px;
+  margin-top: 5%;
+  background: #f7f7f9;
+  width: 700px;
+  align-items: center;
+  gap: 16px;
+}
 
 .about-myself {
   background-color: #fff;
@@ -300,12 +302,14 @@ ul {
   flex-shrink: 100%;
   border-radius: 18% 0 0 0;
 }
+
 .contact-heading {
   margin-left: 40%;
   align-items: center;
   padding-top: 20%;
   font-size: 40px;
 }
+
 .contact-content {
   font-family: 'poppins', Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
