@@ -204,7 +204,6 @@ nav {
   margin-left: 24px;
   gap: 10px;
 }
-
 .my-resume:hover {
   color: #fff;
   cursor: pointer;
@@ -215,31 +214,22 @@ nav {
   box-shadow: 2px 2px 5px #2230d2;
 }
 
-/* .programming-lang {
-  list-style: none;
-  padding-left: o;
-  gap: 16px;
-} */
-
-.web-lang {
-  padding-left: 16px;
-}
-
 .programming-lang {
   display: flex;
-  align-items: center;
-  background: #f7f7f9;
-  border-radius: 8px;
   font-family: 'poppins', Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
   margin: 16px;
-  gap: 16px;
-  padding: 12px;
 }
+.web-lang {
+    display: flex;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    color: #253858;
+    padding-left: 16px;
+    margin-top: 5%;
+    background: #f7f7f9;
+    width: 700px ;
+    align-items: center;
+    gap: 16px;
+  }
 
 .about-myself {
   background-color: #fff;
@@ -300,4 +290,26 @@ ul {
 #aboutme-list {
   margin: 0;
   padding: 0;
+}
+
+.bg-image {
+  background-image: url(./assets/contact\ form\ background\ shapes@2x.svg);
+  background-color: #6070ff;
+  color: #e5e5e5;
+  height: 1263px;
+  flex-shrink: 100%;
+  border-radius: 18% 0 0 0;
+}
+.contact-heading {
+  margin-left: 40%;
+  align-items: center;
+  padding-top: 20%;
+  font-size: 40px;
+}
+.contact-content {
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  margin-left: 15%;
+  align-items: center;
+  padding-top: 2;
 }
