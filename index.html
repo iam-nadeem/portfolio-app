@@ -1,254 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>My portfolio figma-1</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<body>
-        <header>
-            <span class="my-logo"><a href="#">My Logo</a></span>
-            <nav>
-                <a href=""> <img src="./assets/Union.png"  alt="Humburger button"></a>
-            </nav>
-        </header>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="bg-white">
+        <div class="logo">
+          <a href="#">My Logo</a>
+        </div>
+        <nav>
+          <div class="menu-icon">
+            <img src="./assets/Union.png" alt="Humburger button" />
+          </div>
+        </nav>
+      </header>
 
-        <section class="hero">
-            <h1 class="greetings">
-                I’m Nadeem. <br />
-                Glad to see <br />
-                you!
-            </h1>
-            <div class="job-discription">
-                <p>
-                    I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-                </p>
-            </div>
-                <h2 class="connect-link">LET'S CONNECT</h2>
-            <div class="social-media-icons">
-                <ul class="social-media-links">
-                    <li>
-                        <a href="#">
-                            <img src="./assets/twitter-logo.png" alt="twitter-logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./assets/Linkedin icon.png" alt="Linkedin icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./assets/medium-icon.png" alt="medium-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./assets/github-logo.png" alt="github-logo">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./assets/angel-list-logo.png" alt="angel-list-logo">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
+      <main>
+        <section class="headline bg-white">
+          <h1 class="title">I’m Nadeem. Glad to see you!</h1>
+          <p class="details">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <div class="social-media">
+            <a class="contact-link" href="#">LET’S CONNECT</a>
+            <ul class="social-media-links">
+              <li>
+                <a href="#"
+                  ><img src="./assets/twitter-logo.png" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./assets/Linkedin icon.png"
+                    alt="LinkedIn"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/medium-icon.png" alt="Medium"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/github-logo.png" alt="Github"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/angel-list-logo.png" alt="angel-list-logo"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </section>
+
         <section class="works">
-        <div class="cards">
-                <img src="./snaps/Snapshoot Portfolio.svg" alt="Snapshoot">
-            <div class="cards-description"><h2 class="card-titles">Tonic</h2>
-                <div class="subheadinngs">
-                    <span class="canopy">CONOPY</span>
-                    <img src="./icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">Back End Dev</span>
-                    <img src="./icons/circle-icon.svg" alt="">
-                    <span class="subheading-list-title">2015</span>
+          <article class="card bg-white">
+            <figure>
+              <img src="./snaps/Snapshoot Portfolio.svg" alt="Tonic" />
+            </figure>
+            <div class="project-info">
+              <div class="project-header">
+                <h2 class="project-title">Tonic</h2>
+                <div class="header-details">
+                  <p class="client">CANOPY</p>
+                  <span class="seprator-circle"></span>
+                  <p class="role">Back End Dev</p>
+                  <span class="seprator-circle"></span>
+                  <p class="year">2015</p>
                 </div>
-                <section class="card-content">
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
-                </section>
-                <ul class="webdev-languages">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                </ul>
-                <button class="see-project">See Project</button>
+              </div>
+              <p class="project-details">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li class="tag">html</li>
+                <li class="tag">css</li>
+                <li class="tag">javaScript</li>
+              </ul>
+              <div class="action">
+                <button class="btn-default" type="button">See Project</button>
+              </div>
             </div>
-        </div>
-
-        <div class="cards">
-            <img src="./snaps/Snapshoot Portfolio-2.svg" alt="Snapshoot">
-        <div class="cards-description"><h2 class="card-titles">Multi-Post
-            Stories</h2>
-            <div class="subheadinngs">
-                <span class="cnopy">CONOPY</span>
-                <img src="./icons/circle-icon.svg" alt="">
-                <span class="subheading-list-title">Back End Dev</span>
-                <img src="./icons/circle-icon.svg" alt="">
-                <span class="subheading-list-title">2015</span>
+          </article>
+          <article class="card bg-white">
+            <figure>
+              <img src="./snaps/Snapshoot Portfolio-2.svg" alt="multi" />
+            </figure>
+            <div class="project-info">
+              <div class="project-header">
+                <h2 class="project-title">Multi-Post Stories</h2>
+                <div class="header-details">
+                  <p class="client">CANOPY</p>
+                  <span class="seprator-circle"></span>
+                  <p class="role">Back End Dev</p>
+                  <span class="seprator-circle"></span>
+                  <p class="year">2015</p>
+                </div>
+              </div>
+              <p class="project-details">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li class="tag">html</li>
+                <li class="tag">css</li>
+                <li class="tag">javaScript</li>
+              </ul>
+              <div class="action">
+                <button class="btn-default" type="button">See Project</button>
+              </div>
             </div>
-            <section class="card-content">
-                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
-                </p>
-            </section>
-            <ul class="webdev-languages">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
+          </article>
+          <article class="card bg-white">
+            <figure>
+              <img src="./snaps/Snapshoot Portfolio-3.svg" alt="yoga" />
+            </figure>
+            <div class="project-info">
+              <div class="project-header">
+                <h2 class="project-title">Tonic</h2>
+                <div class="header-details">
+                  <p class="client">CANOPY</p>
+                  <span class="seprator-circle"></span>
+                  <p class="role">Back End Dev</p>
+                  <span class="seprator-circle"></span>
+                  <p class="year">2015</p>
+                </div>
+              </div>
+              <p class="project-details">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li class="tag">html</li>
+                <li class="tag">css</li>
+                <li class="tag">javaScript</li>
+              </ul>
+              <div class="action">
+                <button class="btn-default" type="button">See Project</button>
+              </div>
+            </div>
+          </article>
+          <article class="card bg-white">
+            <figure>
+              <img src="./snaps/Snapshoot Portfolio-4.svg" alt="yoga" />
+            </figure>
+            <div class="project-info">
+              <div class="project-header">
+                <h2 class="project-title">Multi-Post Stories</h2>
+                <div class="header-details">
+                  <p class="client">CANOPY</p>
+                  <span class="seprator-circle"></span>
+                  <p class="role">Back End Dev</p>
+                  <span class="seprator-circle"></span>
+                  <p class="year">2015</p>
+                </div>
+              </div>
+              <p class="project-details">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="tags">
+                <li class="tag">html</li>
+                <li class="tag">css</li>
+                <li class="tag">javaScript</li>
+              </ul>
+              <div class="action">
+                <button class="btn-default" type="button">See Project</button>
+              </div>
+            </div>
+          </article>
+        </section>
+        <section class="about bg-white">
+          <h2 class="title">About Myself</h2>
+          <p class="details">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <div class="social-media">
+            <a class="contact-link" href="#">LET’S CONNECT</a>
+            <ul class="social-media-links">
+              <li>
+                <a href="#"
+                  ><img src="./assets/twitter-logo.png" alt="Twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./assets/Linkedin icon.png"
+                    alt="LinkedIn"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/medium-icon.png" alt="Medium"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/github-logo.png" alt="Github"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="./assets/angel-list-logo.png" alt="angel-list-logo"
+                /></a>
+              </li>
             </ul>
-            <button class="see-project">See Project</button>
-        </div>
-    </div>
-
-    <div class="cards">
-        <img src="./snaps/Snapshoot Portfolio-3.svg" alt="Snapshoot">
-    <div class="cards-description"><h2 class="card-titles">Tonic</h2>
-        <div class="subheadinngs">
-            <span class="cnopy">CONOPY</span>
-            <img src="./icons/circle-icon.svg" alt="">
-            <span class="subheading-list-title">Back End Dev</span>
-            <img src="./icons/circle-icon.svg" alt="">
-            <span class="subheading-list-title">2015</span>
-        </div>
-        <section class="card-content">
-            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
-            </p>
-        </section>
-        <ul class="webdev-languages">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-        </ul>
-        <button class="see-project">See Project</button>
-    </div>
-</div>
-
-<div class="cards">
-    <img src="./snaps/Snapshoot Portfolio-4.svg" alt="Snapshoot">
-<div class="cards-description"><h2 class="card-titles">Multi-Post
-    Stories</h2>
-    <div class="subheadinngs">
-        <span class="cnopy">CONOPY</span>
-        <img src="./icons/circle-icon.svg" alt="">
-        <span class="subheading-list-title">Back End Dev</span>
-        <img src="./icons/circle-icon.svg" alt="">
-        <span class="subheading-list-title">2015</span>
-    </div>
-    <section class="card-content">
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
-        </p>
-    </section>
-    <ul class="webdev-languages">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-    </ul>
-    <button class="see-project">See Project</button>
-</div>
-</div>
-        </section>
-        <!---about me section-->
-        <section class="about-myself">
-            <div>
-                <h2 class="greetings">About Myself</h2>
-                <div class="job-discription">
-                    <p>
-                        Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-                    </p>
-                </div>
-                <h2 class="connect-link">LET'S CONNECT</h2>
-                <div class="social-media-icons">
-                    <ul class="social-media-links">
-                        <li>
-                            <a href="#">
-                                <img src="./assets/twitter-logo.png" alt="twitter-logo">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/Linkedin icon.png" alt="Linkedin icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/medium-icon.png" alt="medium-icon">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/github-logo.png" alt="github-logo">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./assets/angel-list-logo.png" alt="angel-list-logo">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <button class="my-resume" type="button">Get My Resume</button>
-            </div>
-            <ul id="aboutme-list">
-                <li class="list-title">
-                    <ul class="lists">
-                        <li><h4>Languages</h4></li>
-                        <li>
-                            <img src="./icons/dropdown-icon.png" alt="dropdown-arrow">
-                        </li>
-                    </ul>
+            <button class="btn-default" type="button">Get my resume</button>
+          </div>
+          <ul class="skill-list">
+            <li class="my-skill">
+              <div class="skill-container">
+                <h3 class="skill-title">Languages</h3>
+                <button class="btn-chev" type="button">
+                  <img src="./icons/dropdown-icon.png" alt="" />
+                </button>
+              </div>
+              <!-- <div class="separator-line"></div> -->
+              <ul class="language-list">
+                <li>
+                  <img src="./icons/js-icon.svg" alt="JavaScript" />
+                  JavaScript
                 </li>
-                <li class="programming-lang">
-                <ul>
-                    <li class="web-lang">
-                        <img src="./icons/js-icon.svg" alt="javascript icon" class="javascript"/>Javascript
-                    </li>
-                    <li class="web-lang">
-                        <img src="./icons/html-icon.svg" alt="html icon"/>HTML
-                    </li>
-                    <li class="web-lang">
-                        <img src="./icons/css-icon.svg" alt="css icon"/>CSS
-                    </li>
-                </ul>
+                <li>
+                  <img src="./icons/html-icon.svg" alt="HTML" />
+                  HTML
                 </li>
-                 <li class="list-title">
-                    <ul class="lists">
-                        <li><h4>Frameworks</h4></li>
-                            <li>
-                                <img src="./icons/expand-icon.png" alt="list expander" class="list-separator">
-                            </li>
-                    </ul>
-                 </li>
-                        <li>
-                             <img src="./icons/list-separator.png" alt="list separator" class="list-separator">
-                        </li>
-                            <li class="list-title">
-                                <ul class="lists">
-                                    <li><h4>Skills</h4></li>
-                                    <li>
-                                        <img src="./icons/expand-icon.png" alt="list expender">
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <img src="./icons/list-separator.png" alt="list separator" class="list-separator">
-                            </li>
-                    </ul>
-                 </li>
-            </ul>
-        </section>
-        <section class="bg-image">
-            <h1 class="contact-heading">Contact me</h1>
-            <p class="contact-content">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-                I’d love to help with it!</p>
-                
-                
+                <li>
+                  <img src="./icons/css-icon.svg" alt="CSS" />
+                  CSS
+                </li>
+              </ul>
+            </li>
 
+            <!-- /languages -->
+            <li class="my-skill">
+              <div class="skill-container">
+                <h3 class="skill-title">Frameworks</h3>
+                <button class="btn-chev" type="button">
+                  <img src="./icons/expand-icon.png" alt="" />
+                </button>
+              </div>
+              <div class="separator-line"></div>
+            </li>
+            <!-- /Frameworks -->
+            <li class="my-skill">
+              <div class="skill-container">
+                <h3 class="skill-title">Skills</h3>
+                <button class="btn-chev" type="button">
+                  <img src="./icons/expand-icon.png" alt="" />
+                </button>
+              </div>
+              <div class="separator-line"></div>
+            </li>
+            <!-- /Skills -->
+          </ul>
         </section>
-    </main>
-</body>
+        <section class="contact-me">
+          <h2>Contact me</h2>
+          <p>
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+          <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              cols="30"
+              rows="6"
+              placeholder="Write your message here"
+              required
+            ></textarea>
+            <button class="btn-submit" type="submit">Get In Touch</button>
+          </form>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>
