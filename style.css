@@ -18,7 +18,8 @@ a {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  border-radius: 0 0 0 100px;
+
+  /* border-radius: 0 0 0 100px; */
 }
 
 #final-id {
@@ -172,8 +173,6 @@ nav {
   padding: 10px;
   line-height: 24px;
   border-radius: 8px;
-  background-color: #fff;
-  color: #6070ff;
   border: 1px solid #396df2;
   font-size: 17px;
   margin-left: 7%;
